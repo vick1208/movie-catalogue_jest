@@ -54,6 +54,7 @@
         "workbox-webpack-plugin": "^6.5.3"
     },
     "dependencies": {
+        "dotenv": "^16.4.5",
         "idb": "^7.0.1",
         "regenerator-runtime": "^0.13.9",
         "workbox-window": "^6.5.3"
