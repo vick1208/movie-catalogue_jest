@@ -15,7 +15,7 @@ describe('Liking A Movie', () => {
 
     expect(document.querySelector('[aria-label="like this movie"]')).toBeTruthy();
   });
-  it('should show the unlike button when the movie has not been liked before', async () => {
+  it('should not show the unlike button when the movie has not been liked before', async () => {
     await createLikeButtonPresenterWithMovie({ id: 1 });
 
     expect(document.querySelector('[aria-label="unlike this movie"]')).toBeFalsy();
